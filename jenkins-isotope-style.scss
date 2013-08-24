@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6{
   color: $headings-color;
 }
 
+img[title=Success]{
+  border: 3px solid green;
+}
+
 #top-panel{
 	background: none;
 	td#login-field {
