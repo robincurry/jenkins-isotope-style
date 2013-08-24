@@ -1,11 +1,11 @@
 body {
   background: #6e537c;
-  background: -moz-linear-gradient(top, #6e537c 0%, #73939b 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6e537c), color-stop(100%, #73939b));
-  background: -webkit-linear-gradient(top, #6e537c 0%, #73939b 100%);
-  background: -o-linear-gradient(top, #6e537c 0%, #73939b 100%);
-  background: -ms-linear-gradient(top, #6e537c 0%, #73939b 100%);
-  background: linear-gradient(top, #6e537c 0%, #73939b 100%); }
+  background: -moz-linear-gradient(top, #6e537c 0%, #533f5d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6e537c), color-stop(100%, #533f5d));
+  background: -webkit-linear-gradient(top, #6e537c 0%, #533f5d 100%);
+  background: -o-linear-gradient(top, #6e537c 0%, #533f5d 100%);
+  background: -ms-linear-gradient(top, #6e537c 0%, #533f5d 100%);
+  background: linear-gradient(top, #6e537c 0%, #533f5d 100%); }
 
 h1, h2, h3, h4, h5, h6 {
   color: #4f7b94; }
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     width: auto; }
   #top-panel td > a {
-    background: url("http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115") 0 0 no-repeat;
+    background: url("http://www.vitals.com/img/vitals-logo.jpg") 0 0 no-repeat;
     display: block;
     width: 130px;
     height: 40px;

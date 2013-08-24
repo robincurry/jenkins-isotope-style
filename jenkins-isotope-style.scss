@@ -1,10 +1,10 @@
 $headings-color: #4f7b94;
 $body-background: #6e537c;
-$body-background-bottom: #73939B;
+$body-background-bottom: darken($body-background, 10%);
 $candy-stripe1: #fff;
 $candy-stripe2: #e5e5e5;
 $candy-stripe-hover: #f0f0f0;
-$logo: "http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115";
+$logo: "http://www.vitals.com/img/vitals-logo.jpg";
 
 body {
 	background: $body-background;
