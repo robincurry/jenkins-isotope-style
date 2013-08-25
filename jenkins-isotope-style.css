@@ -11,6 +11,56 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #4f7b94; }
 
+/* Animated rotating icon */
+.icon-spin, img[src$="blue_anime.gif"] {
+  display: inline-block;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear; }
+
+/* Prevent stack and spinners from being taken inline when inside a link */
+a .icon-stack,
+a .icon-spin,
+a img[src$="blue_anime.gif"] {
+  display: inline-block;
+  text-decoration: none; }
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg); }
+
+  100% {
+    -moz-transform: rotate(359deg); } }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(359deg); } }
+
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg); }
+
+  100% {
+    -o-transform: rotate(359deg); } }
+
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg); }
+
+  100% {
+    -ms-transform: rotate(359deg); } }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+
+  100% {
+    transform: rotate(359deg); } }
+
 img[src$="blue.png"] {
   content: '';
   display: inline-block; }
@@ -28,6 +78,25 @@ img[src$="blue.png"] {
   img[src$="blue.png"].icon24x24 {
     font-size: 20px; }
   img[src$="blue.png"].icon32x32 {
+    font-size: 28px; }
+
+img[src$="blue_anime.gif"] {
+  content: '';
+  display: inline-block; }
+  img[src$="blue_anime.gif"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f05d";
+    color: green; }
+  img[src$="blue_anime.gif"].icon16x16 {
+    font-size: 12px; }
+  img[src$="blue_anime.gif"].icon24x24 {
+    font-size: 20px; }
+  img[src$="blue_anime.gif"].icon32x32 {
     font-size: 28px; }
 
 img[src$="red.png"] {
