@@ -66,6 +66,12 @@ img[src$="yellow.png"] {
   @include icon-replacement('\f05c', #fc0); // icon-remove-circle | golden
 }
 
+// Build icon
+img[src$="clock.png"] {
+  @include icon-replacement('\f021', #333); // icon-refresh
+}
+
+
 
 
 

@@ -87,6 +87,25 @@ img[src$="yellow.png"] {
   img[src$="yellow.png"].icon32x32 {
     font-size: 28px; }
 
+img[src$="clock.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="clock.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f021";
+    color: #333333; }
+  img[src$="clock.png"].icon16x16 {
+    font-size: 12px; }
+  img[src$="clock.png"].icon24x24 {
+    font-size: 20px; }
+  img[src$="clock.png"].icon32x32 {
+    font-size: 28px; }
+
 #top-panel {
   background: none; }
   #top-panel td#login-field span a {
