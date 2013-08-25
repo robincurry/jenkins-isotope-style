@@ -82,7 +82,20 @@ img[src$="24x24/clock.png"] {
 // Health 80+
 img[src$="health-80plus.png"] {
   @include icon-replacement('\f185', #ff4); // icon-sun
-  font-size: 20px
+}
+
+// Health 60-79
+img[src$="health-60-79.png"] {
+  @include icon-replacement('\f185', #ff4); // icon-sun
+  &::after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    content: '\f0c2';
+    color: #ccc;
+  }
 }
 
 

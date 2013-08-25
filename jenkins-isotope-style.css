@@ -129,8 +129,7 @@ img[src$="24x24/clock.png"] {
 
 img[src$="health-80plus.png"] {
   content: '';
-  display: inline-block;
-  font-size: 20px; }
+  display: inline-block; }
   img[src$="health-80plus.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -146,6 +145,33 @@ img[src$="health-80plus.png"] {
     font-size: 20px; }
   img[src$="health-80plus.png"].icon32x32 {
     font-size: 28px; }
+
+img[src$="health-60-79.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="health-60-79.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f185";
+    color: #ffff44; }
+  img[src$="health-60-79.png"].icon16x16 {
+    font-size: 12px; }
+  img[src$="health-60-79.png"].icon24x24 {
+    font-size: 20px; }
+  img[src$="health-60-79.png"].icon32x32 {
+    font-size: 28px; }
+  img[src$="health-60-79.png"]::after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    content: '\f0c2';
+    color: #ccc; }
 
 #top-panel {
   background: none; }
