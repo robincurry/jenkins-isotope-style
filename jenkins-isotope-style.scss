@@ -81,12 +81,13 @@ img[src$="24x24/clock.png"] {
 
 // Health 80+
 img[src$="health-80plus.png"] {
-  @include icon-replacement('\f185', #ff4); // icon-sun
+  @include icon-replacement('\f185', #fc0); // icon-sun
 }
 
 // Health 60-79
 img[src$="health-60to79.png"] {
-  @include icon-replacement('\f185', #ff4); // icon-sun
+  @include icon-replacement('\f185', #fc0); // icon-sun
+  position: relative;
   &::after {
     font-family: FontAwesome;
     font-weight: normal;
@@ -94,7 +95,11 @@ img[src$="health-60to79.png"] {
     display: inline-block;
     text-decoration: inherit;
     content: '\f0c2';
-    color: #ccc;
+    color: #ddd;
+    position: absolute;
+    font-size: 80%;
+    left: 30%;
+    top: 30%;
   }
 }
 
