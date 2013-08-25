@@ -56,6 +56,16 @@ img[src$="red.png"] {
   @include icon-replacement('\f05c', #c33); // icon-remove-circle
 }
 
+// Not built icon
+img[src$="grey.png"] {
+  @include icon-replacement('\f111', #ccc); // icon-circle
+}
+
+// Unstable icon
+img[src$="yellow.png"] {
+  @include icon-replacement('\f05c', #fc0); // icon-remove-circle | golden
+}
+
 
 
 

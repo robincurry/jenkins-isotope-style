@@ -49,6 +49,44 @@ img[src$="red.png"] {
   img[src$="red.png"].icon32x32 {
     font-size: 28px; }
 
+img[src$="grey.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="grey.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f111";
+    color: #cccccc; }
+  img[src$="grey.png"].icon16x16 {
+    font-size: 12px; }
+  img[src$="grey.png"].icon24x24 {
+    font-size: 20px; }
+  img[src$="grey.png"].icon32x32 {
+    font-size: 28px; }
+
+img[src$="yellow.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="yellow.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f05c";
+    color: #ffcc00; }
+  img[src$="yellow.png"].icon16x16 {
+    font-size: 12px; }
+  img[src$="yellow.png"].icon24x24 {
+    font-size: 20px; }
+  img[src$="yellow.png"].icon32x32 {
+    font-size: 28px; }
+
 #top-panel {
   background: none; }
   #top-panel td#login-field span a {
