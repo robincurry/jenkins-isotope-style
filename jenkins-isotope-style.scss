@@ -117,8 +117,59 @@ img[src$="health-40to59.png"] {
     color: #ddd;
     position: absolute;
     font-size: 80%;
-    left: 30%;
-    top: 30%;
+    left: 25%;
+    top: 35%;
+  }
+}
+
+// Health 20-39
+img[src$="health-20to39.png"] {
+  @include icon-replacement('\f0c2', #aaa); // icon-cloud
+  position: relative;
+  &::after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    content: '\f0c2';
+    color: #666;
+    position: absolute;
+    font-size: 80%;
+    left: 25%;
+    top: 35%;
+  }
+}
+
+// Health 00-19
+img[src$="health-00to19.png"] {
+  @include icon-replacement('\f0c2', #aaa); // icon-cloud
+  position: relative;
+  &::after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    content: '\f0c2';
+    color: #666;
+    position: absolute;
+    font-size: 80%;
+    left: 25%;
+    top: 35%;
+  }
+  &::after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    content: '\f0e7'; // icon-bolt
+    color: #fc0;
+    position: absolute;
+    font-size: 80%;
+    left: 25%;
+    top: 35%;
   }
 }
 
