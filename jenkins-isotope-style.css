@@ -59,7 +59,7 @@ img[src$="grey.png"] {
     display: inline-block;
     text-decoration: inherit;
     margin: 2px 3px;
-    content: "\f111";
+    content: "\f10c";
     color: #cccccc; }
   img[src$="grey.png"].icon16x16 {
     font-size: 12px; }
