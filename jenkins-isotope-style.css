@@ -138,7 +138,7 @@ img[src$="health-80plus.png"] {
     text-decoration: inherit;
     margin: 2px 3px;
     content: "\f185";
-    color: #ffff44; }
+    color: #ffcc00; }
   img[src$="health-80plus.png"].icon16x16 {
     font-size: 12px; }
   img[src$="health-80plus.png"].icon24x24 {
@@ -148,7 +148,8 @@ img[src$="health-80plus.png"] {
 
 img[src$="health-60to79.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  position: relative; }
   img[src$="health-60to79.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -157,7 +158,7 @@ img[src$="health-60to79.png"] {
     text-decoration: inherit;
     margin: 2px 3px;
     content: "\f185";
-    color: #ffff44; }
+    color: #ffcc00; }
   img[src$="health-60to79.png"].icon16x16 {
     font-size: 12px; }
   img[src$="health-60to79.png"].icon24x24 {
@@ -171,7 +172,11 @@ img[src$="health-60to79.png"] {
     display: inline-block;
     text-decoration: inherit;
     content: '\f0c2';
-    color: #ccc; }
+    color: #ddd;
+    position: absolute;
+    font-size: 80%;
+    left: 30%;
+    top: 30%; }
 
 #top-panel {
   background: none; }
