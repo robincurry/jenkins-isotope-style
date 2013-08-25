@@ -83,13 +83,8 @@ a .icon-spin {
   100% { transform: rotate(359deg); }
 }
 
-// Success icon
-img[src$="blue.png"] {
-  @include icon-replacement('\f05d', green); // icon-ok-circle
-}
-
-img[src$="blue_anime.gif"] {
-  @include icon-replacement('\f110', green); // icon-spinner | green
+@mixin icon-replacement-spinner($color){
+  @include icon-replacement('\f110', $color); // icon-spinner
   @extend .icon-spin;
   &.icon16x16 {
     height: 16px;
@@ -105,9 +100,22 @@ img[src$="blue_anime.gif"] {
   }
 }
 
+// Success icon
+img[src$="blue.png"] {
+  @include icon-replacement('\f05d', green); // icon-ok-circle
+}
+
+img[src$="blue_anime.gif"] {
+  @include icon-replacement-spinner(green);
+}
+
 // Failed icon
 img[src$="red.png"] {
   @include icon-replacement('\f05c', #c33); // icon-remove-circle
+}
+
+img[src$="red_anime.gif"] {
+  @include icon-replacement-spinner(#c33);
 }
 
 // Not built icon
@@ -115,9 +123,17 @@ img[src$="grey.png"] {
   @include icon-replacement('\f10c', #ccc); // icon-circle-blank
 }
 
+img[src$="grey_anime.gif"] {
+  @include icon-replacement-spinner(#ccc);
+}
+
 // Unstable icon
 img[src$="yellow.png"] {
   @include icon-replacement('\f05c', #fc0); // icon-remove-circle | golden
+}
+
+img[src$="yellow_anime.gif"] {
+  @include icon-replacement-spinner(#fc0);
 }
 
 
