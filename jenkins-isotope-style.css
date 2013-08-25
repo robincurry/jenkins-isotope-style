@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #4f7b94; }
 
 /* Animated rotating icon */
-.icon-spin, img[src$="blue_anime.gif"] {
+.icon-spin, img[src$="blue_anime.gif"], img[src$="red_anime.gif"], img[src$="grey_anime.gif"], img[src$="yellow_anime.gif"] {
   display: inline-block;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
@@ -22,7 +22,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Prevent stack and spinners from being taken inline when inside a link */
 a .icon-stack,
 a .icon-spin,
-a img[src$="blue_anime.gif"] {
+a img[src$="blue_anime.gif"],
+a img[src$="red_anime.gif"],
+a img[src$="grey_anime.gif"],
+a img[src$="yellow_anime.gif"] {
   display: inline-block;
   text-decoration: none; }
 
@@ -127,6 +130,34 @@ img[src$="red.png"] {
   img[src$="red.png"].icon32x32 {
     font-size: 28px; }
 
+img[src$="red_anime.gif"] {
+  content: '';
+  display: inline-block; }
+  img[src$="red_anime.gif"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f110";
+    color: #cc3333; }
+  img[src$="red_anime.gif"].icon16x16 {
+    font-size: 12px; }
+  img[src$="red_anime.gif"].icon24x24 {
+    font-size: 20px; }
+  img[src$="red_anime.gif"].icon32x32 {
+    font-size: 28px; }
+  img[src$="red_anime.gif"].icon16x16 {
+    height: 16px;
+    width: 16px; }
+  img[src$="red_anime.gif"].icon24x24 {
+    height: 25px;
+    width: 23px; }
+  img[src$="red_anime.gif"].icon32x32 {
+    height: 35px;
+    width: 31px; }
+
 img[src$="grey.png"] {
   content: '';
   display: inline-block; }
@@ -146,6 +177,34 @@ img[src$="grey.png"] {
   img[src$="grey.png"].icon32x32 {
     font-size: 28px; }
 
+img[src$="grey_anime.gif"] {
+  content: '';
+  display: inline-block; }
+  img[src$="grey_anime.gif"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f110";
+    color: #cccccc; }
+  img[src$="grey_anime.gif"].icon16x16 {
+    font-size: 12px; }
+  img[src$="grey_anime.gif"].icon24x24 {
+    font-size: 20px; }
+  img[src$="grey_anime.gif"].icon32x32 {
+    font-size: 28px; }
+  img[src$="grey_anime.gif"].icon16x16 {
+    height: 16px;
+    width: 16px; }
+  img[src$="grey_anime.gif"].icon24x24 {
+    height: 25px;
+    width: 23px; }
+  img[src$="grey_anime.gif"].icon32x32 {
+    height: 35px;
+    width: 31px; }
+
 img[src$="yellow.png"] {
   content: '';
   display: inline-block; }
@@ -164,6 +223,34 @@ img[src$="yellow.png"] {
     font-size: 20px; }
   img[src$="yellow.png"].icon32x32 {
     font-size: 28px; }
+
+img[src$="yellow_anime.gif"] {
+  content: '';
+  display: inline-block; }
+  img[src$="yellow_anime.gif"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f110";
+    color: #ffcc00; }
+  img[src$="yellow_anime.gif"].icon16x16 {
+    font-size: 12px; }
+  img[src$="yellow_anime.gif"].icon24x24 {
+    font-size: 20px; }
+  img[src$="yellow_anime.gif"].icon32x32 {
+    font-size: 28px; }
+  img[src$="yellow_anime.gif"].icon16x16 {
+    height: 16px;
+    width: 16px; }
+  img[src$="yellow_anime.gif"].icon24x24 {
+    height: 25px;
+    width: 23px; }
+  img[src$="yellow_anime.gif"].icon32x32 {
+    height: 35px;
+    width: 31px; }
 
 img[src$="16x16/clock.png"] {
   content: '';
