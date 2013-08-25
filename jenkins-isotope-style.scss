@@ -47,6 +47,33 @@ img[src$="blue.png"] {
   }
 }
 
+// Failed icon
+img[src$="red.png"] {
+  content:'';
+  display:inline-block;
+  &::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: '\f05c'; // icon-remove-cirle
+    color: red;
+  }
+  &.icon16x16 {
+    font-size: 12px;
+  }
+  &.icon24x24 {
+    font-size: 20px;
+  }
+  &.icon32x32 {
+    font-size: 28px;
+  }
+}
+
+
+
 
 #top-panel{
 	background: none;
