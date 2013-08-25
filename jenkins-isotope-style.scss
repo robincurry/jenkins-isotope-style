@@ -21,15 +21,21 @@ body {
 h1, h2, h3, h4, h5, h6{
   color: $headings-color;
 }
-img[title=Success]::before {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  text-decoration: inherit;
-  margin: 2px 3px;
-  content: '\f05d'; // icon-ok-cirle
-  color: green;
+
+// Success icon
+img[src$="blue.png"] {
+  content:'';
+  display:inline-block;
+  &::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: '\f05d'; // icon-ok-cirle
+    color: green;
+  }
   &.icon16x16 {
     font-size: 12px;
   }
@@ -41,10 +47,6 @@ img[title=Success]::before {
   }
 }
 
-img[title=Success]{
-  content:'';
-  display:inline-block;
-}
 
 #top-panel{
 	background: none;
