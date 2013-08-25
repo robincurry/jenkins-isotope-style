@@ -89,8 +89,20 @@ img[src$="blue.png"] {
 }
 
 img[src$="blue_anime.gif"] {
-  @include icon-replacement('\f05d', green); // icon-ok-circle
+  @include icon-replacement('\f110', green); // icon-spinner | green
   @extend .icon-spin;
+  &.icon16x16 {
+    height: 16px;
+    width: 16px;
+  }
+  &.icon24x24 {
+    height: 25px;
+    width: 23px;
+  }
+  &.icon32x32 {
+    height: 35px;
+    width: 31px;
+  }
 }
 
 // Failed icon
