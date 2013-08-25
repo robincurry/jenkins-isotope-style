@@ -85,7 +85,7 @@ img[src$="health-80plus.png"] {
 }
 
 // Health 60-79
-img[src$="health-60-79.png"] {
+img[src$="health-60to79.png"] {
   @include icon-replacement('\f185', #ff4); // icon-sun
   &::after {
     font-family: FontAwesome;
