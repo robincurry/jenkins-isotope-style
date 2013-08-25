@@ -17,10 +17,15 @@ img[title=Success]::before {
   font-style: normal;
   display: inline-block;
   text-decoration: inherit;
+  margin: 2px 3px;
   content: '\f05d';
-  color: green;
-  font-size: 28px;
-  margin: 2px 3px; }
+  color: green; }
+  img[title=Success]::before.icon16x16 {
+    font-size: 12px; }
+  img[title=Success]::before.icon24x24 {
+    font-size: 20px; }
+  img[title=Success]::before.icon32x32 {
+    font-size: 28px; }
 
 img[title=Success] {
   content: '';
