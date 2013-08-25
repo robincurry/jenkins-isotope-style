@@ -30,6 +30,25 @@ img[src$="blue.png"] {
   img[src$="blue.png"].icon32x32 {
     font-size: 28px; }
 
+img[src$="red.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="red.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: '\f05c';
+    color: red; }
+  img[src$="red.png"].icon16x16 {
+    font-size: 12px; }
+  img[src$="red.png"].icon24x24 {
+    font-size: 20px; }
+  img[src$="red.png"].icon32x32 {
+    font-size: 28px; }
+
 #top-panel {
   background: none; }
   #top-panel td#login-field span a {
