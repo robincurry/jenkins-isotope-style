@@ -90,7 +90,7 @@ img[src$="blue_anime.gif"] {
     display: inline-block;
     text-decoration: inherit;
     margin: 2px 3px;
-    content: "\f05d";
+    content: "\f110";
     color: green; }
   img[src$="blue_anime.gif"].icon16x16 {
     font-size: 12px; }
@@ -98,6 +98,15 @@ img[src$="blue_anime.gif"] {
     font-size: 20px; }
   img[src$="blue_anime.gif"].icon32x32 {
     font-size: 28px; }
+  img[src$="blue_anime.gif"].icon16x16 {
+    height: 16px;
+    width: 16px; }
+  img[src$="blue_anime.gif"].icon24x24 {
+    height: 25px;
+    width: 23px; }
+  img[src$="blue_anime.gif"].icon32x32 {
+    height: 35px;
+    width: 31px; }
 
 img[src$="red.png"] {
   content: '';
