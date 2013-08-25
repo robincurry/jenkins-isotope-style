@@ -21,7 +21,7 @@ img[src$="blue.png"] {
     display: inline-block;
     text-decoration: inherit;
     margin: 2px 3px;
-    content: '\f05d';
+    content: "\f05d";
     color: green; }
   img[src$="blue.png"].icon16x16 {
     font-size: 12px; }
@@ -40,8 +40,8 @@ img[src$="red.png"] {
     display: inline-block;
     text-decoration: inherit;
     margin: 2px 3px;
-    content: '\f05c';
-    color: red; }
+    content: "\f05c";
+    color: #cc3333; }
   img[src$="red.png"].icon16x16 {
     font-size: 12px; }
   img[src$="red.png"].icon24x24 {
