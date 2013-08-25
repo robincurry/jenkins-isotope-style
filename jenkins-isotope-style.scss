@@ -66,9 +66,17 @@ img[src$="yellow.png"] {
   @include icon-replacement('\f05c', #fc0); // icon-remove-circle | golden
 }
 
-// Build icon
-img[src$="clock.png"] {
-  @include icon-replacement('\f021', #333); // icon-refresh
+
+// Build icon small
+img[src$="16x16/clock.png"] {
+  @include icon-replacement('\f017', #333); // icon-clock
+  font-size: 12px
+}
+
+// Build icon medium/large
+img[src$="24x24/clock.png"] {
+  @include icon-replacement('\f017', #333); // icon-clock
+  font-size: 20px
 }
 
 
