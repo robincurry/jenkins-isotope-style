@@ -58,7 +58,7 @@ img[src$="red.png"] {
 
 // Not built icon
 img[src$="grey.png"] {
-  @include icon-replacement('\f111', #ccc); // icon-circle
+  @include icon-replacement('\f10c', #ccc); // icon-circle-blank
 }
 
 // Unstable icon
