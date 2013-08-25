@@ -87,23 +87,44 @@ img[src$="yellow.png"] {
   img[src$="yellow.png"].icon32x32 {
     font-size: 28px; }
 
-img[src$="clock.png"] {
+img[src$="16x16/clock.png"] {
   content: '';
-  display: inline-block; }
-  img[src$="clock.png"]::before {
+  display: inline-block;
+  font-size: 12px; }
+  img[src$="16x16/clock.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
     display: inline-block;
     text-decoration: inherit;
     margin: 2px 3px;
-    content: "\f021";
+    content: "\f017";
     color: #333333; }
-  img[src$="clock.png"].icon16x16 {
+  img[src$="16x16/clock.png"].icon16x16 {
     font-size: 12px; }
-  img[src$="clock.png"].icon24x24 {
+  img[src$="16x16/clock.png"].icon24x24 {
     font-size: 20px; }
-  img[src$="clock.png"].icon32x32 {
+  img[src$="16x16/clock.png"].icon32x32 {
+    font-size: 28px; }
+
+img[src$="24x24/clock.png"] {
+  content: '';
+  display: inline-block;
+  font-size: 20px; }
+  img[src$="24x24/clock.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f017";
+    color: #333333; }
+  img[src$="24x24/clock.png"].icon16x16 {
+    font-size: 12px; }
+  img[src$="24x24/clock.png"].icon24x24 {
+    font-size: 20px; }
+  img[src$="24x24/clock.png"].icon32x32 {
     font-size: 28px; }
 
 #top-panel {
