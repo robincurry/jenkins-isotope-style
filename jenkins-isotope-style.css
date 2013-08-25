@@ -222,7 +222,7 @@ img[src$="health-20to39.png"] {
     text-decoration: inherit;
     margin: 2px 3px;
     content: "\f0c2";
-    color: #333333; }
+    color: #777777; }
   img[src$="health-20to39.png"].icon16x16 {
     font-size: 12px; }
   img[src$="health-20to39.png"].icon24x24 {

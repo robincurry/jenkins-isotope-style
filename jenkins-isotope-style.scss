@@ -124,7 +124,7 @@ img[src$="health-40to59.png"] {
 
 // Health 20-39
 img[src$="health-20to39.png"] {
-  @include icon-replacement('\f0c2', #333); // icon-cloud
+  @include icon-replacement('\f0c2', #777); // icon-cloud
   position: relative;
   &::after {
     font-family: FontAwesome;
