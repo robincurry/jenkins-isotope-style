@@ -207,8 +207,84 @@ img[src$="health-40to59.png"] {
     color: #ddd;
     position: absolute;
     font-size: 80%;
-    left: 30%;
-    top: 30%; }
+    left: 25%;
+    top: 35%; }
+
+img[src$="health-20to39.png"] {
+  content: '';
+  display: inline-block;
+  position: relative; }
+  img[src$="health-20to39.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f0c2";
+    color: #aaaaaa; }
+  img[src$="health-20to39.png"].icon16x16 {
+    font-size: 12px; }
+  img[src$="health-20to39.png"].icon24x24 {
+    font-size: 20px; }
+  img[src$="health-20to39.png"].icon32x32 {
+    font-size: 28px; }
+  img[src$="health-20to39.png"]::after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    content: '\f0c2';
+    color: #666;
+    position: absolute;
+    font-size: 80%;
+    left: 25%;
+    top: 35%; }
+
+img[src$="health-00to19.png"] {
+  content: '';
+  display: inline-block;
+  position: relative; }
+  img[src$="health-00to19.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f0c2";
+    color: #aaaaaa; }
+  img[src$="health-00to19.png"].icon16x16 {
+    font-size: 12px; }
+  img[src$="health-00to19.png"].icon24x24 {
+    font-size: 20px; }
+  img[src$="health-00to19.png"].icon32x32 {
+    font-size: 28px; }
+  img[src$="health-00to19.png"]::after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    content: '\f0c2';
+    color: #666;
+    position: absolute;
+    font-size: 80%;
+    left: 25%;
+    top: 35%; }
+  img[src$="health-00to19.png"]::after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    content: '\f0e7';
+    color: #fc0;
+    position: absolute;
+    font-size: 80%;
+    left: 25%;
+    top: 35%; }
 
 #top-panel {
   background: none; }
