@@ -27,10 +27,18 @@ img[title=Success]::before {
   font-style: normal;
   display: inline-block;
   text-decoration: inherit;
+  margin: 2px 3px;
   content: '\f05d'; // icon-ok-cirle
   color: green;
-  font-size: 28px;
-  margin: 2px 3px;
+  &.icon16x16 {
+    font-size: 12px;
+  }
+  &.icon24x24 {
+    font-size: 20px;
+  }
+  &.icon32x32 {
+    font-size: 28px;
+  }
 }
 
 img[title=Success]{
