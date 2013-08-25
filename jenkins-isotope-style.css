@@ -190,7 +190,7 @@ img[src$="health-40to59.png"] {
     text-decoration: inherit;
     margin: 2px 3px;
     content: "\f0c2";
-    color: #aaaaaa; }
+    color: #666666; }
   img[src$="health-40to59.png"].icon16x16 {
     font-size: 12px; }
   img[src$="health-40to59.png"].icon24x24 {
@@ -204,7 +204,7 @@ img[src$="health-40to59.png"] {
     display: inline-block;
     text-decoration: inherit;
     content: '\f0c2';
-    color: #666;
+    color: #aaa;
     position: absolute;
     font-size: 80%;
     left: 25%;
@@ -236,11 +236,11 @@ img[src$="health-20to39.png"] {
     display: inline-block;
     text-decoration: inherit;
     content: '\f043';
-    color: blue;
+    color: #0cf;
     position: absolute;
-    font-size: 80%;
-    left: 25%;
-    top: 35%; }
+    font-size: 60%;
+    left: 50%;
+    top: 50%; }
 
 img[src$="health-00to19.png"] {
   content: '';

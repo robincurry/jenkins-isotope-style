@@ -105,7 +105,7 @@ img[src$="health-60to79.png"] {
 
 // Health 40-59
 img[src$="health-40to59.png"] {
-  @include icon-replacement('\f0c2', #aaa); // icon-cloud
+  @include icon-replacement('\f0c2', #666); // icon-cloud
   position: relative;
   &::after {
     font-family: FontAwesome;
@@ -114,7 +114,7 @@ img[src$="health-40to59.png"] {
     display: inline-block;
     text-decoration: inherit;
     content: '\f0c2';
-    color: #666;
+    color: #aaa;
     position: absolute;
     font-size: 80%;
     left: 25%;
@@ -133,11 +133,11 @@ img[src$="health-20to39.png"] {
     display: inline-block;
     text-decoration: inherit;
     content: '\f043'; // icon-tint
-    color: blue;
+    color: #0cf;
     position: absolute;
-    font-size: 80%;
-    left: 25%;
-    top: 35%;
+    font-size: 60%;
+    left: 50%;
+    top: 50%;
   }
 }
 
