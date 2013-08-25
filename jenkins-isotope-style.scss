@@ -79,6 +79,13 @@ img[src$="24x24/clock.png"] {
   font-size: 20px
 }
 
+// Health 80+
+img[src$="health-80plus.png"] {
+  @include icon-replacement('\f185', #ff4); // icon-sun
+  font-size: 20px
+}
+
+
 
 
 
