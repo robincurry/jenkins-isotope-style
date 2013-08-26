@@ -66,7 +66,8 @@ a img[src$="yellow_anime.gif"] {
 
 img[src$="blue.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="blue.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -87,7 +88,8 @@ img[src$="blue.png"] {
 
 img[src$="blue_anime.gif"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="blue_anime.gif"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -120,7 +122,8 @@ img[src$="blue_anime.gif"] {
 
 img[src$="red.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="red.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -141,7 +144,8 @@ img[src$="red.png"] {
 
 img[src$="red_anime.gif"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="red_anime.gif"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -174,7 +178,8 @@ img[src$="red_anime.gif"] {
 
 img[src$="grey.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="grey.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -195,7 +200,8 @@ img[src$="grey.png"] {
 
 img[src$="grey_anime.gif"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="grey_anime.gif"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -228,7 +234,8 @@ img[src$="grey_anime.gif"] {
 
 img[src$="yellow.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="yellow.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -249,7 +256,8 @@ img[src$="yellow.png"] {
 
 img[src$="yellow_anime.gif"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="yellow_anime.gif"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -283,6 +291,7 @@ img[src$="yellow_anime.gif"] {
 img[src$="16x16/clock.png"] {
   content: '';
   display: inline-block;
+  font-size: 20px;
   font-size: 12px; }
   img[src$="16x16/clock.png"]::before {
     font-family: FontAwesome;
@@ -326,7 +335,8 @@ img[src$="24x24/clock.png"] {
 
 img[src$="health-80plus.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="health-80plus.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -348,6 +358,7 @@ img[src$="health-80plus.png"] {
 img[src$="health-60to79.png"] {
   content: '';
   display: inline-block;
+  font-size: 20px;
   position: relative; }
   img[src$="health-60to79.png"]::before {
     font-family: FontAwesome;
@@ -382,6 +393,7 @@ img[src$="health-60to79.png"] {
 img[src$="health-40to59.png"] {
   content: '';
   display: inline-block;
+  font-size: 20px;
   position: relative; }
   img[src$="health-40to59.png"]::before {
     font-family: FontAwesome;
@@ -416,6 +428,7 @@ img[src$="health-40to59.png"] {
 img[src$="health-20to39.png"] {
   content: '';
   display: inline-block;
+  font-size: 20px;
   position: relative; }
   img[src$="health-20to39.png"]::before {
     font-family: FontAwesome;
@@ -450,6 +463,7 @@ img[src$="health-20to39.png"] {
 img[src$="health-00to19.png"] {
   content: '';
   display: inline-block;
+  font-size: 20px;
   position: relative; }
   img[src$="health-00to19.png"]::before {
     font-family: FontAwesome;
@@ -483,7 +497,8 @@ img[src$="health-00to19.png"] {
 
 img[src$="new-package.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="new-package.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -504,7 +519,8 @@ img[src$="new-package.png"] {
 
 img[src$="user.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="user.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -527,7 +543,8 @@ img[src$="notepad.png"],
 img[src$="document.png"],
 img[src$="text-x-generic.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="notepad.png"]::before,
   img[src$="document.png"]::before,
   img[src$="text-x-generic.png"]::before {
@@ -566,7 +583,8 @@ img[src$="text-x-generic.png"] {
 
 img[src$="gear.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="gear.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -587,7 +605,8 @@ img[src$="gear.png"] {
 
 img[src$="edit-delete.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="edit-delete.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -609,6 +628,7 @@ img[src$="edit-delete.png"] {
 img[src$="16x16/notepad.png"] {
   content: '';
   display: inline-block;
+  font-size: 20px;
   font-size: 14px; }
   img[src$="16x16/notepad.png"]::before {
     font-family: FontAwesome;
@@ -631,7 +651,8 @@ img[src$="16x16/notepad.png"] {
 img[src$="setting.png"], img[src$="confighistory.png"] {
   font-size: 20px;
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="setting.png"]::before, img[src$="confighistory.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -652,7 +673,8 @@ img[src$="setting.png"], img[src$="confighistory.png"] {
 
 img[src$="up.png"], img[src$="up.gif"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="up.png"]::before, img[src$="up.gif"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -673,7 +695,8 @@ img[src$="up.png"], img[src$="up.gif"] {
 
 img[src$="edit-find.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="edit-find.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -694,7 +717,8 @@ img[src$="edit-find.png"] {
 
 img[src$="search.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="search.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -715,7 +739,8 @@ img[src$="search.png"] {
 
 img[src$="folder.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="folder.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -736,7 +761,8 @@ img[src$="folder.png"] {
 
 img[src$="graph.gif"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="graph.gif"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -779,7 +805,8 @@ img[src$="github/logov3.png"] {
 
 img[src$="clipboard.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="clipboard.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -800,7 +827,8 @@ img[src$="clipboard.png"] {
 
 img[src$="help.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="help.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -821,7 +849,8 @@ img[src$="help.png"] {
 
 img[src$="secure.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="secure.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -842,7 +871,8 @@ img[src$="secure.png"] {
 
 img[src$="refresh.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="refresh.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -863,7 +893,8 @@ img[src$="refresh.png"] {
 
 img[src$="plugin.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="plugin.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -884,7 +915,8 @@ img[src$="plugin.png"] {
 
 img[src$="computer.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="computer.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -905,7 +937,8 @@ img[src$="computer.png"] {
 
 img[src$="monitor.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="monitor.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -926,7 +959,8 @@ img[src$="monitor.png"] {
 
 img[src$="terminal.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="terminal.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -947,7 +981,8 @@ img[src$="terminal.png"] {
 
 img[src$="network.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="network.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -968,7 +1003,8 @@ img[src$="network.png"] {
 
 img[src$="credentials.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="credentials.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -989,7 +1025,8 @@ img[src$="credentials.png"] {
 
 img[src$="credentials.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="credentials.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -1010,7 +1047,8 @@ img[src$="credentials.png"] {
 
 img[src$="system-log-out.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="system-log-out.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -1032,6 +1070,7 @@ img[src$="system-log-out.png"] {
 img[src$="atom.gif"] {
   content: '';
   display: inline-block;
+  font-size: 20px;
   font-size: 16px; }
   img[src$="atom.gif"]::before {
     font-family: FontAwesome;
@@ -1105,13 +1144,15 @@ img[src$="atom.gif"] {
 
 #main-table {
   border-top: 0;
-  border-bottom: 0; }
+  border-bottom: 1px solid #ddd; }
 
 #description div {
   font-size: 1.3em; }
 
 #footer {
-  border-top: 1px solid #ccc; }
+  border-top: 0; }
+  #footer a {
+    color: #fefefe; }
 
 #view-message #description a img {
   padding-right: 4px; }
