@@ -247,8 +247,8 @@ img[src$="user.png"] {
   @include icon-replacement('\f007', #666); // icon-user
 }
 
-// Build history / Recent changes icon
-img[src$="notepad.png"] {
+// Build history / Recent changes icon / Manage old data
+img[src$="notepad.png"], img[src$="document.png"] {
   @include icon-replacement('\f0f6', #666); // icon-file-text-alt
 }
 
@@ -303,6 +303,62 @@ img[src$="github/logov3.png"] {
 // Github Hook Log / Latest Test Result icon
 img[src$="clipboard.png"] {
   @include icon-replacement('\f022', #666); // icon-list-alt
+}
+
+// Help icon
+img[src$="help.png"] {
+  @include icon-replacement('\f059', #666); // icon-question-sign
+}
+
+// Configure Security icon
+img[src$="help.png"] {
+  @include icon-replacement('\f023', #666); // icon-lock
+}
+
+// Reload Configuration icon
+img[src$="reload.png"] {
+  @include icon-replacement('\f021', #666); // icon-refresh
+}
+
+// Manage Plugins icon
+img[src$="plugin.png"] {
+  @include icon-replacement('\f12e', #666); // icon-puzzle-piece
+}
+
+// System info icon
+img[src$="computer.png"] {
+  @include icon-replacement('\f108', #666); // icon-desktop
+}
+
+// Load statistics icon
+img[src$="monitor.png"] {
+  @include icon-replacement('\f0ae', #666); // icon-tasks
+}
+
+// Manage nodes icon
+img[src$="network.png"] {
+  @include icon-replacement('\f0e8', #666); // icon-sitemap
+}
+
+// Manage credentials icon
+img[src$="credentials.png"] {
+  @include icon-replacement('\f084', #666); // icon-key
+}
+
+// Manage credentials icon
+img[src$="credentials.png"] {
+  @include icon-replacement('\f084', #666); // icon-key
+}
+
+// Prepare for Shutdown icon
+img[src$="system-log-out.png"] {
+  @include icon-replacement('\f08b', #666); // icon-signout
+}
+
+// RSS icon
+img[src$="atom.gif"] {
+  @include icon-replacement('\f143', #666); // icon-rss-sign
+  font-size: 16px;
 }
 
 

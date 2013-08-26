@@ -523,10 +523,10 @@ img[src$="user.png"] {
   img[src$="user.png"].icon48x48, img[src$="user.png"][src*="48x48"] {
     font-size: 32px; }
 
-img[src$="notepad.png"] {
+img[src$="notepad.png"], img[src$="document.png"] {
   content: '';
   display: inline-block; }
-  img[src$="notepad.png"]::before {
+  img[src$="notepad.png"]::before, img[src$="document.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
@@ -535,13 +535,13 @@ img[src$="notepad.png"] {
     margin: 2px 3px;
     content: "\f0f6";
     color: #666666; }
-  img[src$="notepad.png"].icon16x16, img[src$="notepad.png"][src*="16x16"] {
+  img[src$="notepad.png"].icon16x16, img[src$="notepad.png"][src*="16x16"], img[src$="document.png"].icon16x16, img[src$="document.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="notepad.png"].icon24x24, img[src$="notepad.png"][src*="24x24"] {
+  img[src$="notepad.png"].icon24x24, img[src$="notepad.png"][src*="24x24"], img[src$="document.png"].icon24x24, img[src$="document.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="notepad.png"].icon32x32, img[src$="notepad.png"][src*="32x32"] {
+  img[src$="notepad.png"].icon32x32, img[src$="notepad.png"][src*="32x32"], img[src$="document.png"].icon32x32, img[src$="document.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="notepad.png"].icon48x48, img[src$="notepad.png"][src*="48x48"] {
+  img[src$="notepad.png"].icon48x48, img[src$="notepad.png"][src*="48x48"], img[src$="document.png"].icon48x48, img[src$="document.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="gear.png"] {
@@ -755,6 +755,238 @@ img[src$="clipboard.png"] {
   img[src$="clipboard.png"].icon32x32, img[src$="clipboard.png"][src*="32x32"] {
     font-size: 28px; }
   img[src$="clipboard.png"].icon48x48, img[src$="clipboard.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="help.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="help.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f059";
+    color: #666666; }
+  img[src$="help.png"].icon16x16, img[src$="help.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="help.png"].icon24x24, img[src$="help.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="help.png"].icon32x32, img[src$="help.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="help.png"].icon48x48, img[src$="help.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="help.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="help.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f023";
+    color: #666666; }
+  img[src$="help.png"].icon16x16, img[src$="help.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="help.png"].icon24x24, img[src$="help.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="help.png"].icon32x32, img[src$="help.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="help.png"].icon48x48, img[src$="help.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="reload.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="reload.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f021";
+    color: #666666; }
+  img[src$="reload.png"].icon16x16, img[src$="reload.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="reload.png"].icon24x24, img[src$="reload.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="reload.png"].icon32x32, img[src$="reload.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="reload.png"].icon48x48, img[src$="reload.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="plugin.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="plugin.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f12e";
+    color: #666666; }
+  img[src$="plugin.png"].icon16x16, img[src$="plugin.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="plugin.png"].icon24x24, img[src$="plugin.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="plugin.png"].icon32x32, img[src$="plugin.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="plugin.png"].icon48x48, img[src$="plugin.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="computer.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="computer.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f108";
+    color: #666666; }
+  img[src$="computer.png"].icon16x16, img[src$="computer.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="computer.png"].icon24x24, img[src$="computer.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="computer.png"].icon32x32, img[src$="computer.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="computer.png"].icon48x48, img[src$="computer.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="monitor.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="monitor.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f0ae";
+    color: #666666; }
+  img[src$="monitor.png"].icon16x16, img[src$="monitor.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="monitor.png"].icon24x24, img[src$="monitor.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="monitor.png"].icon32x32, img[src$="monitor.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="monitor.png"].icon48x48, img[src$="monitor.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="network.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="network.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f0e8";
+    color: #666666; }
+  img[src$="network.png"].icon16x16, img[src$="network.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="network.png"].icon24x24, img[src$="network.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="network.png"].icon32x32, img[src$="network.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="network.png"].icon48x48, img[src$="network.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="credentials.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="credentials.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f084";
+    color: #666666; }
+  img[src$="credentials.png"].icon16x16, img[src$="credentials.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="credentials.png"].icon24x24, img[src$="credentials.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="credentials.png"].icon32x32, img[src$="credentials.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="credentials.png"].icon48x48, img[src$="credentials.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="credentials.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="credentials.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f084";
+    color: #666666; }
+  img[src$="credentials.png"].icon16x16, img[src$="credentials.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="credentials.png"].icon24x24, img[src$="credentials.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="credentials.png"].icon32x32, img[src$="credentials.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="credentials.png"].icon48x48, img[src$="credentials.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="system-log-out.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="system-log-out.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f08b";
+    color: #666666; }
+  img[src$="system-log-out.png"].icon16x16, img[src$="system-log-out.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="system-log-out.png"].icon24x24, img[src$="system-log-out.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="system-log-out.png"].icon32x32, img[src$="system-log-out.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="system-log-out.png"].icon48x48, img[src$="system-log-out.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="atom.gif"] {
+  content: '';
+  display: inline-block;
+  font-size: 16px; }
+  img[src$="atom.gif"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f143";
+    color: #666666; }
+  img[src$="atom.gif"].icon16x16, img[src$="atom.gif"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="atom.gif"].icon24x24, img[src$="atom.gif"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="atom.gif"].icon32x32, img[src$="atom.gif"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="atom.gif"].icon48x48, img[src$="atom.gif"][src*="48x48"] {
     font-size: 32px; }
 
 #top-panel {
