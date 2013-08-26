@@ -35,14 +35,17 @@ h1, h2, h3, h4, h5, h6{
     content: $content;
     color: $color;
   }
-  &.icon16x16 {
+  &.icon16x16, &[src*="16x16"] {
     font-size: 12px;
   }
-  &.icon24x24 {
+  &.icon24x24, &[src*="24x24"] {
     font-size: 20px;
   }
-  &.icon32x32 {
+  &.icon32x32, &[src*="32x32"] {
     font-size: 28px;
+  }
+  &[src*="48x48"] {
+    font-size: 32px;
   }
 }
 
