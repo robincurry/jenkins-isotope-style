@@ -1105,13 +1105,15 @@ img[src$="atom.gif"] {
 
 #main-table {
   border-top: 0;
-  border-bottom: 0; }
+  border-bottom: 1px solid #ddd; }
 
 #description div {
   font-size: 1.3em; }
 
 #footer {
-  border-top: 1px solid #ccc; }
+  border-top: 0; }
+  #footer a {
+    color: #fefefe; }
 
 #view-message #description a img {
   padding-right: 4px; }
