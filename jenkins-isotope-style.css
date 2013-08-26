@@ -76,12 +76,14 @@ img[src$="blue.png"] {
     margin: 2px 3px;
     content: "\f05d";
     color: green; }
-  img[src$="blue.png"].icon16x16 {
+  img[src$="blue.png"].icon16x16, img[src$="blue.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="blue.png"].icon24x24 {
+  img[src$="blue.png"].icon24x24, img[src$="blue.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="blue.png"].icon32x32 {
+  img[src$="blue.png"].icon32x32, img[src$="blue.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="blue.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="blue_anime.gif"] {
   content: '';
@@ -95,12 +97,14 @@ img[src$="blue_anime.gif"] {
     margin: 2px 3px;
     content: "\f110";
     color: green; }
-  img[src$="blue_anime.gif"].icon16x16 {
+  img[src$="blue_anime.gif"].icon16x16, img[src$="blue_anime.gif"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="blue_anime.gif"].icon24x24 {
+  img[src$="blue_anime.gif"].icon24x24, img[src$="blue_anime.gif"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="blue_anime.gif"].icon32x32 {
+  img[src$="blue_anime.gif"].icon32x32, img[src$="blue_anime.gif"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="blue_anime.gif"][src*="48x48"] {
+    font-size: 32px; }
   img[src$="blue_anime.gif"].icon16x16 {
     height: 16px;
     width: 16px; }
@@ -123,12 +127,14 @@ img[src$="red.png"] {
     margin: 2px 3px;
     content: "\f05c";
     color: #cc3333; }
-  img[src$="red.png"].icon16x16 {
+  img[src$="red.png"].icon16x16, img[src$="red.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="red.png"].icon24x24 {
+  img[src$="red.png"].icon24x24, img[src$="red.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="red.png"].icon32x32 {
+  img[src$="red.png"].icon32x32, img[src$="red.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="red.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="red_anime.gif"] {
   content: '';
@@ -142,12 +148,14 @@ img[src$="red_anime.gif"] {
     margin: 2px 3px;
     content: "\f110";
     color: #cc3333; }
-  img[src$="red_anime.gif"].icon16x16 {
+  img[src$="red_anime.gif"].icon16x16, img[src$="red_anime.gif"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="red_anime.gif"].icon24x24 {
+  img[src$="red_anime.gif"].icon24x24, img[src$="red_anime.gif"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="red_anime.gif"].icon32x32 {
+  img[src$="red_anime.gif"].icon32x32, img[src$="red_anime.gif"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="red_anime.gif"][src*="48x48"] {
+    font-size: 32px; }
   img[src$="red_anime.gif"].icon16x16 {
     height: 16px;
     width: 16px; }
@@ -170,12 +178,14 @@ img[src$="grey.png"] {
     margin: 2px 3px;
     content: "\f10c";
     color: #cccccc; }
-  img[src$="grey.png"].icon16x16 {
+  img[src$="grey.png"].icon16x16, img[src$="grey.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="grey.png"].icon24x24 {
+  img[src$="grey.png"].icon24x24, img[src$="grey.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="grey.png"].icon32x32 {
+  img[src$="grey.png"].icon32x32, img[src$="grey.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="grey.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="grey_anime.gif"] {
   content: '';
@@ -189,12 +199,14 @@ img[src$="grey_anime.gif"] {
     margin: 2px 3px;
     content: "\f110";
     color: #cccccc; }
-  img[src$="grey_anime.gif"].icon16x16 {
+  img[src$="grey_anime.gif"].icon16x16, img[src$="grey_anime.gif"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="grey_anime.gif"].icon24x24 {
+  img[src$="grey_anime.gif"].icon24x24, img[src$="grey_anime.gif"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="grey_anime.gif"].icon32x32 {
+  img[src$="grey_anime.gif"].icon32x32, img[src$="grey_anime.gif"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="grey_anime.gif"][src*="48x48"] {
+    font-size: 32px; }
   img[src$="grey_anime.gif"].icon16x16 {
     height: 16px;
     width: 16px; }
@@ -217,12 +229,14 @@ img[src$="yellow.png"] {
     margin: 2px 3px;
     content: "\f05c";
     color: #ffcc00; }
-  img[src$="yellow.png"].icon16x16 {
+  img[src$="yellow.png"].icon16x16, img[src$="yellow.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="yellow.png"].icon24x24 {
+  img[src$="yellow.png"].icon24x24, img[src$="yellow.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="yellow.png"].icon32x32 {
+  img[src$="yellow.png"].icon32x32, img[src$="yellow.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="yellow.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="yellow_anime.gif"] {
   content: '';
@@ -236,12 +250,14 @@ img[src$="yellow_anime.gif"] {
     margin: 2px 3px;
     content: "\f110";
     color: #ffcc00; }
-  img[src$="yellow_anime.gif"].icon16x16 {
+  img[src$="yellow_anime.gif"].icon16x16, img[src$="yellow_anime.gif"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="yellow_anime.gif"].icon24x24 {
+  img[src$="yellow_anime.gif"].icon24x24, img[src$="yellow_anime.gif"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="yellow_anime.gif"].icon32x32 {
+  img[src$="yellow_anime.gif"].icon32x32, img[src$="yellow_anime.gif"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="yellow_anime.gif"][src*="48x48"] {
+    font-size: 32px; }
   img[src$="yellow_anime.gif"].icon16x16 {
     height: 16px;
     width: 16px; }
@@ -265,12 +281,14 @@ img[src$="16x16/clock.png"] {
     margin: 2px 3px;
     content: "\f017";
     color: #333333; }
-  img[src$="16x16/clock.png"].icon16x16 {
+  img[src$="16x16/clock.png"].icon16x16, img[src$="16x16/clock.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="16x16/clock.png"].icon24x24 {
+  img[src$="16x16/clock.png"].icon24x24, img[src$="16x16/clock.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="16x16/clock.png"].icon32x32 {
+  img[src$="16x16/clock.png"].icon32x32, img[src$="16x16/clock.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="16x16/clock.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="24x24/clock.png"] {
   content: '';
@@ -285,12 +303,14 @@ img[src$="24x24/clock.png"] {
     margin: 2px 3px;
     content: "\f017";
     color: #333333; }
-  img[src$="24x24/clock.png"].icon16x16 {
+  img[src$="24x24/clock.png"].icon16x16, img[src$="24x24/clock.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="24x24/clock.png"].icon24x24 {
+  img[src$="24x24/clock.png"].icon24x24, img[src$="24x24/clock.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="24x24/clock.png"].icon32x32 {
+  img[src$="24x24/clock.png"].icon32x32, img[src$="24x24/clock.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="24x24/clock.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="health-80plus.png"] {
   content: '';
@@ -304,12 +324,14 @@ img[src$="health-80plus.png"] {
     margin: 2px 3px;
     content: "\f185";
     color: #ffcc00; }
-  img[src$="health-80plus.png"].icon16x16 {
+  img[src$="health-80plus.png"].icon16x16, img[src$="health-80plus.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="health-80plus.png"].icon24x24 {
+  img[src$="health-80plus.png"].icon24x24, img[src$="health-80plus.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="health-80plus.png"].icon32x32 {
+  img[src$="health-80plus.png"].icon32x32, img[src$="health-80plus.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="health-80plus.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="health-60to79.png"] {
   content: '';
@@ -324,12 +346,14 @@ img[src$="health-60to79.png"] {
     margin: 2px 3px;
     content: "\f185";
     color: #ffcc00; }
-  img[src$="health-60to79.png"].icon16x16 {
+  img[src$="health-60to79.png"].icon16x16, img[src$="health-60to79.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="health-60to79.png"].icon24x24 {
+  img[src$="health-60to79.png"].icon24x24, img[src$="health-60to79.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="health-60to79.png"].icon32x32 {
+  img[src$="health-60to79.png"].icon32x32, img[src$="health-60to79.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="health-60to79.png"][src*="48x48"] {
+    font-size: 32px; }
   img[src$="health-60to79.png"]::after {
     font-family: FontAwesome;
     font-weight: normal;
@@ -356,12 +380,14 @@ img[src$="health-40to59.png"] {
     margin: 2px 3px;
     content: "\f0c2";
     color: #666666; }
-  img[src$="health-40to59.png"].icon16x16 {
+  img[src$="health-40to59.png"].icon16x16, img[src$="health-40to59.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="health-40to59.png"].icon24x24 {
+  img[src$="health-40to59.png"].icon24x24, img[src$="health-40to59.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="health-40to59.png"].icon32x32 {
+  img[src$="health-40to59.png"].icon32x32, img[src$="health-40to59.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="health-40to59.png"][src*="48x48"] {
+    font-size: 32px; }
   img[src$="health-40to59.png"]::after {
     font-family: FontAwesome;
     font-weight: normal;
@@ -388,12 +414,14 @@ img[src$="health-20to39.png"] {
     margin: 2px 3px;
     content: "\f0c2";
     color: #777777; }
-  img[src$="health-20to39.png"].icon16x16 {
+  img[src$="health-20to39.png"].icon16x16, img[src$="health-20to39.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="health-20to39.png"].icon24x24 {
+  img[src$="health-20to39.png"].icon24x24, img[src$="health-20to39.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="health-20to39.png"].icon32x32 {
+  img[src$="health-20to39.png"].icon32x32, img[src$="health-20to39.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="health-20to39.png"][src*="48x48"] {
+    font-size: 32px; }
   img[src$="health-20to39.png"]::after {
     font-family: FontAwesome;
     font-weight: normal;
@@ -420,12 +448,14 @@ img[src$="health-00to19.png"] {
     margin: 2px 3px;
     content: "\f0c2";
     color: #666666; }
-  img[src$="health-00to19.png"].icon16x16 {
+  img[src$="health-00to19.png"].icon16x16, img[src$="health-00to19.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="health-00to19.png"].icon24x24 {
+  img[src$="health-00to19.png"].icon24x24, img[src$="health-00to19.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="health-00to19.png"].icon32x32 {
+  img[src$="health-00to19.png"].icon32x32, img[src$="health-00to19.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="health-00to19.png"][src*="48x48"] {
+    font-size: 32px; }
   img[src$="health-00to19.png"]::after {
     font-family: FontAwesome;
     font-weight: normal;
@@ -452,12 +482,14 @@ img[src$="new-package.png"] {
     margin: 2px 3px;
     content: "\f067";
     color: #666666; }
-  img[src$="new-package.png"].icon16x16 {
+  img[src$="new-package.png"].icon16x16, img[src$="new-package.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="new-package.png"].icon24x24 {
+  img[src$="new-package.png"].icon24x24, img[src$="new-package.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="new-package.png"].icon32x32 {
+  img[src$="new-package.png"].icon32x32, img[src$="new-package.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="new-package.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="user.png"] {
   content: '';
@@ -472,12 +504,14 @@ img[src$="user.png"] {
     margin: 2px 3px;
     content: "\f007";
     color: #666666; }
-  img[src$="user.png"].icon16x16 {
+  img[src$="user.png"].icon16x16, img[src$="user.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="user.png"].icon24x24 {
+  img[src$="user.png"].icon24x24, img[src$="user.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="user.png"].icon32x32 {
+  img[src$="user.png"].icon32x32, img[src$="user.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="user.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="24x24/notepad.png"] {
   content: '';
@@ -492,12 +526,14 @@ img[src$="24x24/notepad.png"] {
     margin: 2px 3px;
     content: "\f0f6";
     color: #666666; }
-  img[src$="24x24/notepad.png"].icon16x16 {
+  img[src$="24x24/notepad.png"].icon16x16, img[src$="24x24/notepad.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="24x24/notepad.png"].icon24x24 {
+  img[src$="24x24/notepad.png"].icon24x24, img[src$="24x24/notepad.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="24x24/notepad.png"].icon32x32 {
+  img[src$="24x24/notepad.png"].icon32x32, img[src$="24x24/notepad.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="24x24/notepad.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="gear.png"] {
   content: '';
@@ -512,12 +548,14 @@ img[src$="gear.png"] {
     margin: 2px 3px;
     content: "\f013";
     color: #666666; }
-  img[src$="gear.png"].icon16x16 {
+  img[src$="gear.png"].icon16x16, img[src$="gear.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="gear.png"].icon24x24 {
+  img[src$="gear.png"].icon24x24, img[src$="gear.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="gear.png"].icon32x32 {
+  img[src$="gear.png"].icon32x32, img[src$="gear.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="gear.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="edit-delete.png"] {
   content: '';
@@ -532,12 +570,14 @@ img[src$="edit-delete.png"] {
     margin: 2px 3px;
     content: "\f014";
     color: #666666; }
-  img[src$="edit-delete.png"].icon16x16 {
+  img[src$="edit-delete.png"].icon16x16, img[src$="edit-delete.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="edit-delete.png"].icon24x24 {
+  img[src$="edit-delete.png"].icon24x24, img[src$="edit-delete.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="edit-delete.png"].icon32x32 {
+  img[src$="edit-delete.png"].icon32x32, img[src$="edit-delete.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="edit-delete.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="16x16/notepad.png"] {
   content: '';
@@ -552,12 +592,14 @@ img[src$="16x16/notepad.png"] {
     margin: 2px 3px;
     content: "\f044";
     color: #666666; }
-  img[src$="16x16/notepad.png"].icon16x16 {
+  img[src$="16x16/notepad.png"].icon16x16, img[src$="16x16/notepad.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="16x16/notepad.png"].icon24x24 {
+  img[src$="16x16/notepad.png"].icon24x24, img[src$="16x16/notepad.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="16x16/notepad.png"].icon32x32 {
+  img[src$="16x16/notepad.png"].icon32x32, img[src$="16x16/notepad.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="16x16/notepad.png"][src*="48x48"] {
+    font-size: 32px; }
 
 img[src$="setting.png"], img[src$="confighistory.png"] {
   content: '';
@@ -572,12 +614,14 @@ img[src$="setting.png"], img[src$="confighistory.png"] {
     margin: 2px 3px;
     content: "\f0ad";
     color: #666666; }
-  img[src$="setting.png"].icon16x16, img[src$="confighistory.png"].icon16x16 {
+  img[src$="setting.png"].icon16x16, img[src$="setting.png"][src*="16x16"], img[src$="confighistory.png"].icon16x16, img[src$="confighistory.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="setting.png"].icon24x24, img[src$="confighistory.png"].icon24x24 {
+  img[src$="setting.png"].icon24x24, img[src$="setting.png"][src*="24x24"], img[src$="confighistory.png"].icon24x24, img[src$="confighistory.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="setting.png"].icon32x32, img[src$="confighistory.png"].icon32x32 {
+  img[src$="setting.png"].icon32x32, img[src$="setting.png"][src*="32x32"], img[src$="confighistory.png"].icon32x32, img[src$="confighistory.png"][src*="32x32"] {
     font-size: 28px; }
+  img[src$="setting.png"][src*="48x48"], img[src$="confighistory.png"][src*="48x48"] {
+    font-size: 32px; }
 
 #top-panel {
   background: none; }
