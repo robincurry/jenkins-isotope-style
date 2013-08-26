@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6{
 @mixin icon-replacement($content, $color) {
   content:'';
   display:inline-block;
+  font-size: 20px;
   &::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -153,7 +154,6 @@ img[src$="16x16/clock.png"] {
 // Build icon medium/large
 img[src$="24x24/clock.png"] {
   @include icon-replacement('\f017', #333); // icon-clock
-  font-size: 20px
 }
 
 // Health 80+
@@ -304,7 +304,6 @@ img[src$="graph.gif"] {
 // Github icon
 img[src$="github/logov3.png"] {
   @include icon-replacement('\f092', #666); // icon-github-sign
-  font-size: 20px;
 }
 
 // Github Hook Log / Latest Test Result icon
