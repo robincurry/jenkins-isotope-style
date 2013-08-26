@@ -243,7 +243,7 @@ img[src$="user.png"] {
 }
 
 // Build history icon
-img[src$="user.png"] {
+img[src$="24x24/notepad.png"] {
   @include icon-replacement('\f0f6', #666); // icon-file-text-alt
   font-size: 20px;
 }
@@ -261,9 +261,9 @@ img[src$="edit-delete.png"] {
 }
 
 // Add description icon
-img[src$="notepad.png"] {
+img[src$="16x16/notepad.png"] {
   @include icon-replacement('\f044', #666); // icon-edit
-  font-size: 20px;
+  font-size: 14px;
 }
 
 // Manage Jenkins icon, Config history plugin icon
