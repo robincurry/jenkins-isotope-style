@@ -311,12 +311,12 @@ img[src$="help.png"] {
 }
 
 // Configure Security icon
-img[src$="help.png"] {
+img[src$="secure.png"] {
   @include icon-replacement('\f023', #666); // icon-lock
 }
 
 // Reload Configuration icon
-img[src$="reload.png"] {
+img[src$="refresh.png"] {
   @include icon-replacement('\f021', #666); // icon-refresh
 }
 
@@ -333,6 +333,11 @@ img[src$="computer.png"] {
 // Load statistics icon
 img[src$="monitor.png"] {
   @include icon-replacement('\f0ae', #666); // icon-tasks
+}
+
+// Jenkins CLI icon
+img[src$="terminal.png"] {
+  @include icon-replacement('\f120', #666); // icon-terminal
 }
 
 // Manage nodes icon
