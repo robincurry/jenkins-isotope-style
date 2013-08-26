@@ -479,11 +479,11 @@ img[src$="user.png"] {
   img[src$="user.png"].icon32x32 {
     font-size: 28px; }
 
-img[src$="user.png"] {
+img[src$="24x24/notepad.png"] {
   content: '';
   display: inline-block;
   font-size: 20px; }
-  img[src$="user.png"]::before {
+  img[src$="24x24/notepad.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
@@ -492,11 +492,11 @@ img[src$="user.png"] {
     margin: 2px 3px;
     content: "\f0f6";
     color: #666666; }
-  img[src$="user.png"].icon16x16 {
+  img[src$="24x24/notepad.png"].icon16x16 {
     font-size: 12px; }
-  img[src$="user.png"].icon24x24 {
+  img[src$="24x24/notepad.png"].icon24x24 {
     font-size: 20px; }
-  img[src$="user.png"].icon32x32 {
+  img[src$="24x24/notepad.png"].icon32x32 {
     font-size: 28px; }
 
 img[src$="gear.png"] {
@@ -539,11 +539,11 @@ img[src$="edit-delete.png"] {
   img[src$="edit-delete.png"].icon32x32 {
     font-size: 28px; }
 
-img[src$="notepad.png"] {
+img[src$="16x16/notepad.png"] {
   content: '';
   display: inline-block;
-  font-size: 20px; }
-  img[src$="notepad.png"]::before {
+  font-size: 14px; }
+  img[src$="16x16/notepad.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
@@ -552,11 +552,11 @@ img[src$="notepad.png"] {
     margin: 2px 3px;
     content: "\f044";
     color: #666666; }
-  img[src$="notepad.png"].icon16x16 {
+  img[src$="16x16/notepad.png"].icon16x16 {
     font-size: 12px; }
-  img[src$="notepad.png"].icon24x24 {
+  img[src$="16x16/notepad.png"].icon24x24 {
     font-size: 20px; }
-  img[src$="notepad.png"].icon32x32 {
+  img[src$="16x16/notepad.png"].icon32x32 {
     font-size: 28px; }
 
 img[src$="setting.png"], img[src$="confighistory.png"] {
