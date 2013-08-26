@@ -716,7 +716,8 @@ img[src$="graph.gif"] {
 
 img[src$="github/logov3.png"] {
   content: '';
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20px; }
   img[src$="github/logov3.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;

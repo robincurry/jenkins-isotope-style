@@ -297,6 +297,7 @@ img[src$="graph.gif"] {
 // Github icon
 img[src$="github/logov3.png"] {
   @include icon-replacement('\f092', #666); // icon-github-sign
+  font-size: 20px;
 }
 
 // Github Hook Log / Latest Test Result icon
