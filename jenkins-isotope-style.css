@@ -609,6 +609,7 @@ img[src$="16x16/notepad.png"] {
     font-size: 32px; }
 
 img[src$="setting.png"], img[src$="confighistory.png"] {
+  font-size: 20px;
   content: '';
   display: inline-block; }
   img[src$="setting.png"]::before, img[src$="confighistory.png"]::before {

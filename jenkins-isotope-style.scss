@@ -270,6 +270,7 @@ img[src$="16x16/notepad.png"] {
 
 // Manage Jenkins icon, Config history plugin icon
 img[src$="setting.png"], img[src$="confighistory.png"] {
+  font-size: 20px;
   @include icon-replacement('\f0ad', #666); // icon-wrench
 }
 
