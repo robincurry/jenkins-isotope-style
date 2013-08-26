@@ -230,7 +230,10 @@ img[src$="health-00to19.png"] {
   }
 }
 
-
+// User icon
+img[src$="user.png"] {
+  @include icon-replacement('\f007', #666); // icon-user
+}
 
 
 
