@@ -248,7 +248,9 @@ img[src$="user.png"] {
 }
 
 // Build history / Recent changes icon / Manage old data
-img[src$="notepad.png"], img[src$="document.png"] {
+img[src$="notepad.png"], 
+img[src$="document.png"], 
+img[src$="text-x-generic.png"] {
   @include icon-replacement('\f0f6', #666); // icon-file-text-alt
 }
 
@@ -275,8 +277,13 @@ img[src$="setting.png"], img[src$="confighistory.png"] {
 }
 
 // Back to Dashboard icon
-img[src$="up.png"] {
+img[src$="up.png"], img[src$="up.gif"] {
   @include icon-replacement('\f062', #666); // icon-arrow-up
+}
+
+// Show <type> only filter icon
+img[src$="edit-find.png"] {
+  @include icon-replacement('\f0b0', #666); // icon-filter
 }
 
 // Search/Status icon
