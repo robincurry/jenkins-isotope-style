@@ -247,8 +247,8 @@ img[src$="user.png"] {
   @include icon-replacement('\f007', #666); // icon-user
 }
 
-// Build history icon
-img[src$="24x24/notepad.png"] {
+// Build history / Recent changes icon
+img[src$="notepad.png"] {
   @include icon-replacement('\f0f6', #666); // icon-file-text-alt
 }
 
@@ -273,6 +273,37 @@ img[src$="setting.png"], img[src$="confighistory.png"] {
   font-size: 20px;
   @include icon-replacement('\f0ad', #666); // icon-wrench
 }
+
+// Back to Dashboard icon
+img[src$="up.png"] {
+  @include icon-replacement('\f062', #666); // icon-arrow-up
+}
+
+// Search/Status icon
+img[src$="search.png"] {
+  @include icon-replacement('\f002', #666); // icon-search
+}
+
+// Folder icon
+img[src$="folder.png"] {
+  @include icon-replacement('\f07c', #666); // icon-folder-open
+}
+
+// Feature/Rcov Report icon
+img[src$="graph.gif"] {
+  @include icon-replacement('\f080', #666); // icon-bar-chart
+}
+
+// Github icon
+img[src$="github/logov3.png"] {
+  @include icon-replacement('\f092', #666); // icon-github-sign
+}
+
+// Github Hook Log / Latest Test Result icon
+img[src$="clipboard.png"] {
+  @include icon-replacement('\f022', #666); // icon-list-alt
+}
+
 
 
 

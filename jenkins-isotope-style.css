@@ -523,10 +523,10 @@ img[src$="user.png"] {
   img[src$="user.png"].icon48x48, img[src$="user.png"][src*="48x48"] {
     font-size: 32px; }
 
-img[src$="24x24/notepad.png"] {
+img[src$="notepad.png"] {
   content: '';
   display: inline-block; }
-  img[src$="24x24/notepad.png"]::before {
+  img[src$="notepad.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
@@ -535,13 +535,13 @@ img[src$="24x24/notepad.png"] {
     margin: 2px 3px;
     content: "\f0f6";
     color: #666666; }
-  img[src$="24x24/notepad.png"].icon16x16, img[src$="24x24/notepad.png"][src*="16x16"] {
+  img[src$="notepad.png"].icon16x16, img[src$="notepad.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="24x24/notepad.png"].icon24x24, img[src$="24x24/notepad.png"][src*="24x24"] {
+  img[src$="notepad.png"].icon24x24, img[src$="notepad.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="24x24/notepad.png"].icon32x32, img[src$="24x24/notepad.png"][src*="32x32"] {
+  img[src$="notepad.png"].icon32x32, img[src$="notepad.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="24x24/notepad.png"].icon48x48, img[src$="24x24/notepad.png"][src*="48x48"] {
+  img[src$="notepad.png"].icon48x48, img[src$="notepad.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="gear.png"] {
@@ -628,6 +628,132 @@ img[src$="setting.png"], img[src$="confighistory.png"] {
   img[src$="setting.png"].icon32x32, img[src$="setting.png"][src*="32x32"], img[src$="confighistory.png"].icon32x32, img[src$="confighistory.png"][src*="32x32"] {
     font-size: 28px; }
   img[src$="setting.png"].icon48x48, img[src$="setting.png"][src*="48x48"], img[src$="confighistory.png"].icon48x48, img[src$="confighistory.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="up.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="up.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f062";
+    color: #666666; }
+  img[src$="up.png"].icon16x16, img[src$="up.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="up.png"].icon24x24, img[src$="up.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="up.png"].icon32x32, img[src$="up.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="up.png"].icon48x48, img[src$="up.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="search.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="search.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f002";
+    color: #666666; }
+  img[src$="search.png"].icon16x16, img[src$="search.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="search.png"].icon24x24, img[src$="search.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="search.png"].icon32x32, img[src$="search.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="search.png"].icon48x48, img[src$="search.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="folder.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="folder.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f07c";
+    color: #666666; }
+  img[src$="folder.png"].icon16x16, img[src$="folder.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="folder.png"].icon24x24, img[src$="folder.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="folder.png"].icon32x32, img[src$="folder.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="folder.png"].icon48x48, img[src$="folder.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="graph.gif"] {
+  content: '';
+  display: inline-block; }
+  img[src$="graph.gif"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f080";
+    color: #666666; }
+  img[src$="graph.gif"].icon16x16, img[src$="graph.gif"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="graph.gif"].icon24x24, img[src$="graph.gif"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="graph.gif"].icon32x32, img[src$="graph.gif"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="graph.gif"].icon48x48, img[src$="graph.gif"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="github/logov3.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="github/logov3.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f092";
+    color: #666666; }
+  img[src$="github/logov3.png"].icon16x16, img[src$="github/logov3.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="github/logov3.png"].icon24x24, img[src$="github/logov3.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="github/logov3.png"].icon32x32, img[src$="github/logov3.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="github/logov3.png"].icon48x48, img[src$="github/logov3.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="clipboard.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="clipboard.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f022";
+    color: #666666; }
+  img[src$="clipboard.png"].icon16x16, img[src$="clipboard.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="clipboard.png"].icon24x24, img[src$="clipboard.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="clipboard.png"].icon32x32, img[src$="clipboard.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="clipboard.png"].icon48x48, img[src$="clipboard.png"][src*="48x48"] {
     font-size: 32px; }
 
 #top-panel {
