@@ -82,7 +82,7 @@ img[src$="blue.png"] {
     font-size: 20px; }
   img[src$="blue.png"].icon32x32, img[src$="blue.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="blue.png"][src*="48x48"] {
+  img[src$="blue.png"].icon48x48, img[src$="blue.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="blue_anime.gif"] {
@@ -103,17 +103,20 @@ img[src$="blue_anime.gif"] {
     font-size: 20px; }
   img[src$="blue_anime.gif"].icon32x32, img[src$="blue_anime.gif"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="blue_anime.gif"][src*="48x48"] {
+  img[src$="blue_anime.gif"].icon48x48, img[src$="blue_anime.gif"][src*="48x48"] {
     font-size: 32px; }
-  img[src$="blue_anime.gif"].icon16x16 {
+  img[src$="blue_anime.gif"].icon16x16, img[src$="blue_anime.gif"][src*="16x16"] {
     height: 16px;
     width: 16px; }
-  img[src$="blue_anime.gif"].icon24x24 {
+  img[src$="blue_anime.gif"].icon24x24, img[src$="blue_anime.gif"][src*="24x24"] {
     height: 25px;
     width: 23px; }
-  img[src$="blue_anime.gif"].icon32x32 {
+  img[src$="blue_anime.gif"].icon32x32, img[src$="blue_anime.gif"][src*="32x32"] {
     height: 35px;
     width: 31px; }
+  img[src$="blue_anime.gif"].icon48x48, img[src$="blue_anime.gif"][src*="48x48"] {
+    height: 39px;
+    width: 35px; }
 
 img[src$="red.png"] {
   content: '';
@@ -133,7 +136,7 @@ img[src$="red.png"] {
     font-size: 20px; }
   img[src$="red.png"].icon32x32, img[src$="red.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="red.png"][src*="48x48"] {
+  img[src$="red.png"].icon48x48, img[src$="red.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="red_anime.gif"] {
@@ -154,17 +157,20 @@ img[src$="red_anime.gif"] {
     font-size: 20px; }
   img[src$="red_anime.gif"].icon32x32, img[src$="red_anime.gif"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="red_anime.gif"][src*="48x48"] {
+  img[src$="red_anime.gif"].icon48x48, img[src$="red_anime.gif"][src*="48x48"] {
     font-size: 32px; }
-  img[src$="red_anime.gif"].icon16x16 {
+  img[src$="red_anime.gif"].icon16x16, img[src$="red_anime.gif"][src*="16x16"] {
     height: 16px;
     width: 16px; }
-  img[src$="red_anime.gif"].icon24x24 {
+  img[src$="red_anime.gif"].icon24x24, img[src$="red_anime.gif"][src*="24x24"] {
     height: 25px;
     width: 23px; }
-  img[src$="red_anime.gif"].icon32x32 {
+  img[src$="red_anime.gif"].icon32x32, img[src$="red_anime.gif"][src*="32x32"] {
     height: 35px;
     width: 31px; }
+  img[src$="red_anime.gif"].icon48x48, img[src$="red_anime.gif"][src*="48x48"] {
+    height: 39px;
+    width: 35px; }
 
 img[src$="grey.png"] {
   content: '';
@@ -184,7 +190,7 @@ img[src$="grey.png"] {
     font-size: 20px; }
   img[src$="grey.png"].icon32x32, img[src$="grey.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="grey.png"][src*="48x48"] {
+  img[src$="grey.png"].icon48x48, img[src$="grey.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="grey_anime.gif"] {
@@ -205,17 +211,20 @@ img[src$="grey_anime.gif"] {
     font-size: 20px; }
   img[src$="grey_anime.gif"].icon32x32, img[src$="grey_anime.gif"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="grey_anime.gif"][src*="48x48"] {
+  img[src$="grey_anime.gif"].icon48x48, img[src$="grey_anime.gif"][src*="48x48"] {
     font-size: 32px; }
-  img[src$="grey_anime.gif"].icon16x16 {
+  img[src$="grey_anime.gif"].icon16x16, img[src$="grey_anime.gif"][src*="16x16"] {
     height: 16px;
     width: 16px; }
-  img[src$="grey_anime.gif"].icon24x24 {
+  img[src$="grey_anime.gif"].icon24x24, img[src$="grey_anime.gif"][src*="24x24"] {
     height: 25px;
     width: 23px; }
-  img[src$="grey_anime.gif"].icon32x32 {
+  img[src$="grey_anime.gif"].icon32x32, img[src$="grey_anime.gif"][src*="32x32"] {
     height: 35px;
     width: 31px; }
+  img[src$="grey_anime.gif"].icon48x48, img[src$="grey_anime.gif"][src*="48x48"] {
+    height: 39px;
+    width: 35px; }
 
 img[src$="yellow.png"] {
   content: '';
@@ -235,7 +244,7 @@ img[src$="yellow.png"] {
     font-size: 20px; }
   img[src$="yellow.png"].icon32x32, img[src$="yellow.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="yellow.png"][src*="48x48"] {
+  img[src$="yellow.png"].icon48x48, img[src$="yellow.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="yellow_anime.gif"] {
@@ -256,17 +265,20 @@ img[src$="yellow_anime.gif"] {
     font-size: 20px; }
   img[src$="yellow_anime.gif"].icon32x32, img[src$="yellow_anime.gif"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="yellow_anime.gif"][src*="48x48"] {
+  img[src$="yellow_anime.gif"].icon48x48, img[src$="yellow_anime.gif"][src*="48x48"] {
     font-size: 32px; }
-  img[src$="yellow_anime.gif"].icon16x16 {
+  img[src$="yellow_anime.gif"].icon16x16, img[src$="yellow_anime.gif"][src*="16x16"] {
     height: 16px;
     width: 16px; }
-  img[src$="yellow_anime.gif"].icon24x24 {
+  img[src$="yellow_anime.gif"].icon24x24, img[src$="yellow_anime.gif"][src*="24x24"] {
     height: 25px;
     width: 23px; }
-  img[src$="yellow_anime.gif"].icon32x32 {
+  img[src$="yellow_anime.gif"].icon32x32, img[src$="yellow_anime.gif"][src*="32x32"] {
     height: 35px;
     width: 31px; }
+  img[src$="yellow_anime.gif"].icon48x48, img[src$="yellow_anime.gif"][src*="48x48"] {
+    height: 39px;
+    width: 35px; }
 
 img[src$="16x16/clock.png"] {
   content: '';
@@ -287,7 +299,7 @@ img[src$="16x16/clock.png"] {
     font-size: 20px; }
   img[src$="16x16/clock.png"].icon32x32, img[src$="16x16/clock.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="16x16/clock.png"][src*="48x48"] {
+  img[src$="16x16/clock.png"].icon48x48, img[src$="16x16/clock.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="24x24/clock.png"] {
@@ -309,7 +321,7 @@ img[src$="24x24/clock.png"] {
     font-size: 20px; }
   img[src$="24x24/clock.png"].icon32x32, img[src$="24x24/clock.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="24x24/clock.png"][src*="48x48"] {
+  img[src$="24x24/clock.png"].icon48x48, img[src$="24x24/clock.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="health-80plus.png"] {
@@ -330,7 +342,7 @@ img[src$="health-80plus.png"] {
     font-size: 20px; }
   img[src$="health-80plus.png"].icon32x32, img[src$="health-80plus.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="health-80plus.png"][src*="48x48"] {
+  img[src$="health-80plus.png"].icon48x48, img[src$="health-80plus.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="health-60to79.png"] {
@@ -352,7 +364,7 @@ img[src$="health-60to79.png"] {
     font-size: 20px; }
   img[src$="health-60to79.png"].icon32x32, img[src$="health-60to79.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="health-60to79.png"][src*="48x48"] {
+  img[src$="health-60to79.png"].icon48x48, img[src$="health-60to79.png"][src*="48x48"] {
     font-size: 32px; }
   img[src$="health-60to79.png"]::after {
     font-family: FontAwesome;
@@ -386,7 +398,7 @@ img[src$="health-40to59.png"] {
     font-size: 20px; }
   img[src$="health-40to59.png"].icon32x32, img[src$="health-40to59.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="health-40to59.png"][src*="48x48"] {
+  img[src$="health-40to59.png"].icon48x48, img[src$="health-40to59.png"][src*="48x48"] {
     font-size: 32px; }
   img[src$="health-40to59.png"]::after {
     font-family: FontAwesome;
@@ -420,7 +432,7 @@ img[src$="health-20to39.png"] {
     font-size: 20px; }
   img[src$="health-20to39.png"].icon32x32, img[src$="health-20to39.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="health-20to39.png"][src*="48x48"] {
+  img[src$="health-20to39.png"].icon48x48, img[src$="health-20to39.png"][src*="48x48"] {
     font-size: 32px; }
   img[src$="health-20to39.png"]::after {
     font-family: FontAwesome;
@@ -454,7 +466,7 @@ img[src$="health-00to19.png"] {
     font-size: 20px; }
   img[src$="health-00to19.png"].icon32x32, img[src$="health-00to19.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="health-00to19.png"][src*="48x48"] {
+  img[src$="health-00to19.png"].icon48x48, img[src$="health-00to19.png"][src*="48x48"] {
     font-size: 32px; }
   img[src$="health-00to19.png"]::after {
     font-family: FontAwesome;
@@ -471,8 +483,7 @@ img[src$="health-00to19.png"] {
 
 img[src$="new-package.png"] {
   content: '';
-  display: inline-block;
-  font-size: 20px; }
+  display: inline-block; }
   img[src$="new-package.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -488,13 +499,12 @@ img[src$="new-package.png"] {
     font-size: 20px; }
   img[src$="new-package.png"].icon32x32, img[src$="new-package.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="new-package.png"][src*="48x48"] {
+  img[src$="new-package.png"].icon48x48, img[src$="new-package.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="user.png"] {
   content: '';
-  display: inline-block;
-  font-size: 20px; }
+  display: inline-block; }
   img[src$="user.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -510,13 +520,12 @@ img[src$="user.png"] {
     font-size: 20px; }
   img[src$="user.png"].icon32x32, img[src$="user.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="user.png"][src*="48x48"] {
+  img[src$="user.png"].icon48x48, img[src$="user.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="24x24/notepad.png"] {
   content: '';
-  display: inline-block;
-  font-size: 20px; }
+  display: inline-block; }
   img[src$="24x24/notepad.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -532,13 +541,12 @@ img[src$="24x24/notepad.png"] {
     font-size: 20px; }
   img[src$="24x24/notepad.png"].icon32x32, img[src$="24x24/notepad.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="24x24/notepad.png"][src*="48x48"] {
+  img[src$="24x24/notepad.png"].icon48x48, img[src$="24x24/notepad.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="gear.png"] {
   content: '';
-  display: inline-block;
-  font-size: 20px; }
+  display: inline-block; }
   img[src$="gear.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -554,13 +562,12 @@ img[src$="gear.png"] {
     font-size: 20px; }
   img[src$="gear.png"].icon32x32, img[src$="gear.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="gear.png"][src*="48x48"] {
+  img[src$="gear.png"].icon48x48, img[src$="gear.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="edit-delete.png"] {
   content: '';
-  display: inline-block;
-  font-size: 20px; }
+  display: inline-block; }
   img[src$="edit-delete.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -576,7 +583,7 @@ img[src$="edit-delete.png"] {
     font-size: 20px; }
   img[src$="edit-delete.png"].icon32x32, img[src$="edit-delete.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="edit-delete.png"][src*="48x48"] {
+  img[src$="edit-delete.png"].icon48x48, img[src$="edit-delete.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="16x16/notepad.png"] {
@@ -598,13 +605,12 @@ img[src$="16x16/notepad.png"] {
     font-size: 20px; }
   img[src$="16x16/notepad.png"].icon32x32, img[src$="16x16/notepad.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="16x16/notepad.png"][src*="48x48"] {
+  img[src$="16x16/notepad.png"].icon48x48, img[src$="16x16/notepad.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="setting.png"], img[src$="confighistory.png"] {
   content: '';
-  display: inline-block;
-  font-size: 20px; }
+  display: inline-block; }
   img[src$="setting.png"]::before, img[src$="confighistory.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -620,7 +626,7 @@ img[src$="setting.png"], img[src$="confighistory.png"] {
     font-size: 20px; }
   img[src$="setting.png"].icon32x32, img[src$="setting.png"][src*="32x32"], img[src$="confighistory.png"].icon32x32, img[src$="confighistory.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="setting.png"][src*="48x48"], img[src$="confighistory.png"][src*="48x48"] {
+  img[src$="setting.png"].icon48x48, img[src$="setting.png"][src*="48x48"], img[src$="confighistory.png"].icon48x48, img[src$="confighistory.png"][src*="48x48"] {
     font-size: 32px; }
 
 #top-panel {
