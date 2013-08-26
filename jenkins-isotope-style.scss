@@ -230,9 +230,46 @@ img[src$="health-00to19.png"] {
   }
 }
 
+// New job icon
+img[src$="new-package.png"] {
+  @include icon-replacement('\f067', #666); // icon-plus
+  font-size: 20px;
+}
+
 // User icon
 img[src$="user.png"] {
   @include icon-replacement('\f007', #666); // icon-user
+  font-size: 20px;
+}
+
+// Build history icon
+img[src$="user.png"] {
+  @include icon-replacement('\f0f6', #666); // icon-file-text-alt
+  font-size: 20px;
+}
+
+// Edit view icon
+img[src$="gear.png"] {
+  @include icon-replacement('\f013', #666); // icon-cog
+  font-size: 20px;
+}
+
+// Delete view icon
+img[src$="edit-delete.png"] {
+  @include icon-replacement('\f014', #666); // icon-trash
+  font-size: 20px;
+}
+
+// Add description icon
+img[src$="notepad.png"] {
+  @include icon-replacement('\f044', #666); // icon-edit
+  font-size: 20px;
+}
+
+// Manage Jenkins icon, Config history plugin icon
+img[src$="setting.png"], img[src$="confighistory.png"] {
+  @include icon-replacement('\f0ad', #666); // icon-wrench
+  font-size: 20px;
 }
 
 
