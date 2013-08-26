@@ -778,10 +778,10 @@ img[src$="help.png"] {
   img[src$="help.png"].icon48x48, img[src$="help.png"][src*="48x48"] {
     font-size: 32px; }
 
-img[src$="help.png"] {
+img[src$="secure.png"] {
   content: '';
   display: inline-block; }
-  img[src$="help.png"]::before {
+  img[src$="secure.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
@@ -790,19 +790,19 @@ img[src$="help.png"] {
     margin: 2px 3px;
     content: "\f023";
     color: #666666; }
-  img[src$="help.png"].icon16x16, img[src$="help.png"][src*="16x16"] {
+  img[src$="secure.png"].icon16x16, img[src$="secure.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="help.png"].icon24x24, img[src$="help.png"][src*="24x24"] {
+  img[src$="secure.png"].icon24x24, img[src$="secure.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="help.png"].icon32x32, img[src$="help.png"][src*="32x32"] {
+  img[src$="secure.png"].icon32x32, img[src$="secure.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="help.png"].icon48x48, img[src$="help.png"][src*="48x48"] {
+  img[src$="secure.png"].icon48x48, img[src$="secure.png"][src*="48x48"] {
     font-size: 32px; }
 
-img[src$="reload.png"] {
+img[src$="refresh.png"] {
   content: '';
   display: inline-block; }
-  img[src$="reload.png"]::before {
+  img[src$="refresh.png"]::before {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
@@ -811,13 +811,13 @@ img[src$="reload.png"] {
     margin: 2px 3px;
     content: "\f021";
     color: #666666; }
-  img[src$="reload.png"].icon16x16, img[src$="reload.png"][src*="16x16"] {
+  img[src$="refresh.png"].icon16x16, img[src$="refresh.png"][src*="16x16"] {
     font-size: 12px; }
-  img[src$="reload.png"].icon24x24, img[src$="reload.png"][src*="24x24"] {
+  img[src$="refresh.png"].icon24x24, img[src$="refresh.png"][src*="24x24"] {
     font-size: 20px; }
-  img[src$="reload.png"].icon32x32, img[src$="reload.png"][src*="32x32"] {
+  img[src$="refresh.png"].icon32x32, img[src$="refresh.png"][src*="32x32"] {
     font-size: 28px; }
-  img[src$="reload.png"].icon48x48, img[src$="reload.png"][src*="48x48"] {
+  img[src$="refresh.png"].icon48x48, img[src$="refresh.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="plugin.png"] {
@@ -881,6 +881,27 @@ img[src$="monitor.png"] {
   img[src$="monitor.png"].icon32x32, img[src$="monitor.png"][src*="32x32"] {
     font-size: 28px; }
   img[src$="monitor.png"].icon48x48, img[src$="monitor.png"][src*="48x48"] {
+    font-size: 32px; }
+
+img[src$="terminal.png"] {
+  content: '';
+  display: inline-block; }
+  img[src$="terminal.png"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin: 2px 3px;
+    content: "\f120";
+    color: #666666; }
+  img[src$="terminal.png"].icon16x16, img[src$="terminal.png"][src*="16x16"] {
+    font-size: 12px; }
+  img[src$="terminal.png"].icon24x24, img[src$="terminal.png"][src*="24x24"] {
+    font-size: 20px; }
+  img[src$="terminal.png"].icon32x32, img[src$="terminal.png"][src*="32x32"] {
+    font-size: 28px; }
+  img[src$="terminal.png"].icon48x48, img[src$="terminal.png"][src*="48x48"] {
     font-size: 32px; }
 
 img[src$="network.png"] {
